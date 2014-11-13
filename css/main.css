@@ -27,50 +27,43 @@ body {
     #151515 100%)*/
 }
 
+.tile{
+  width: 100px;
+  height: 100px;
+}
+
 .tile-1 {
   position: absolute;
   margin-left: 5%;
   margin-top: 5%;
-  height: 100px;
-  width: 100px;
 }
 
 .tile-2 {
   position: absolute;
   margin-left: 5%;
   margin-top: 25%;
-  height: 100px;
-  width: 100px;
 }
 
 .tile-3 {
   position: absolute;
   margin-left: 25%;
   margin-top: 5%;
-  height: 100px;
-  width: 100px;
 }
 
 .tile-4 {
   position: absolute;
   margin-left: 25%;
   margin-top: 25%;
-  height: 100px;
-  width: 100px;
 }
 
 .tile-5 {
   position: absolute;
   margin-left: 45%;
   margin-top: 5%;
-  height: 100px;
-  width: 100px;
 }
 
 .tile-6 {
   position: absolute;
   margin-left: 45%;
   margin-top: 25%;
-  height: 100px;
-  width: 100px;
 }
