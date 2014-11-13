@@ -15,7 +15,7 @@ li {
 }
 
 body {
-  background: repeating-linear-gradient(
+/*  background: repeating-linear-gradient(
     90deg,
     #E76626,
     #E76626 25%,
@@ -24,5 +24,53 @@ body {
     #A391BC 50%,
     #A391BC 75%,
     #151515 75%,
-    #151515 100%)
+    #151515 100%)*/
+}
+
+.tile-1 {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+.tile-2 {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 25%;
+  height: 100px;
+  width: 100px;
+}
+
+.tile-3 {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+.tile-4 {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 25%;
+  height: 100px;
+  width: 100px;
+}
+
+.tile-5 {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+.tile-6 {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 25%;
+  height: 100px;
+  width: 100px;
 }
