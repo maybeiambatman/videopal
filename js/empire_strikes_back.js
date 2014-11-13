@@ -18,7 +18,7 @@ $(document).on('click', '.next-button', function(){
   $("#circle-3").css("background", frames[count][2]);
   $("#circle-4").css("background", frames[count][3]);
   $("#circle-5").css("background", frames[count][4]);
-  $("#center").attr("src","movies/Empire Strikes Back/EmpireStrikesBack"+(count+1)+".PNG");
+  $("#center").attr("src","../movies/Empire Strikes Back/EmpireStrikesBack"+(count+1)+".PNG");
 });
 
 $(document).on('click', '.prev-button', function(){
@@ -31,7 +31,7 @@ $(document).on('click', '.prev-button', function(){
   $("#circle-3").css("background", frames[count][2]);
   $("#circle-4").css("background", frames[count][3]);
   $("#circle-5").css("background", frames[count][4]);
-  $("#center").attr("src","movies/Empire Strikes Back/EmpireStrikesBack"+(count+1)+".PNG");
+  $("#center").attr("src","../movies/Empire Strikes Back/EmpireStrikesBack"+(count+1)+".PNG");
 });
 
 $(document).on('click', '.animate', function(){
@@ -42,7 +42,7 @@ $(document).on('click', '.animate', function(){
           $("#circle-3").css("background", frames[it][2]).delay(500);
           $("#circle-4").css("background", frames[it][3]).delay(500);
           $("#circle-5").css("background", frames[it][4]).delay(500);
-          $("#center").attr("src","movies/Empire Strikes Back/EmpireStrikesBack"+(it+1)+".png").delay(500);
+          $("#center").attr("src","../movies/Empire Strikes Back/EmpireStrikesBack"+(it+1)+".png").delay(500);
           it ++;
           if (it < it_end){
             setTimeout(run, 1000);
