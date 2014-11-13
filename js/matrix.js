@@ -1,13 +1,13 @@
 var count = 0
-var frames =     [["#E76626", "#6D6090", "#A391BC", "#151515", "#823512"],
-            ["#843111", "#030304", "#B6471A", "#FFC845", "#151515"],
-            ["#507888", "#1D1D22", "#C19539", "#F3F6FA", "#2E4047"],
-            ["#003246", "#00EA4B", "#FF9836", "#004913", "#755A1B"],
-            ["#D4772A", "#54525D", "#C9ADAC", "#030303", "#8F1E4D"],
-            ["#F8DDB2", "#573E37", "#030303", "#B1796A", "#59382B"],
-            ["#5B6B66", "#96908C", "#980E0D", "#162529", "#FFB940"],
-            ["#9EA9C1", "#FFC385", "#030303", "#572F0E", "#CF6323"],
-            ["#030303", "#3D5D7E", "#4EAAD1", "#EC8E32", "#004966"]]
+var frames =     [["#DFEFD4", "#2F5B38", "#000000", "#B1C6BA", "#823512"],
+            ["#6BD091", "#2D7448", "#41D765", "#9CD8C8", "#0D2310"],
+            ["#ECF7F8", "#58746F", "#729E94", "#F3F6FA", "#2E4047"],
+            ["#4A698A", "#BF4638", "#FFFFFF", "#86ADD3", "#000000"],
+            ["#03020B", "#18271C", "#233D2B", "#8B8871", "#5A261A"],
+            ["#000000", "#3D75D3", "#C3C3C1", "#FDFEF9", "#121B3E"],
+            ["#2A4030", "#3B593D", "#51704A", "#DAD0B3", "#0C0C0A"],
+            ["#20428E", "#A4CAF2", "#2F7147", "#2EA74F", "#0F0F0D"],
+            ["#C8B68D", "#979262", "#173725", "#163525", "#000000"]]
 $(document).on('click', '.next-button', function(){
     if (count < 8){
         count += 1
@@ -18,7 +18,7 @@ $(document).on('click', '.next-button', function(){
   $("#circle-3").css("background", frames[count][2]);
   $("#circle-4").css("background", frames[count][3]);
   $("#circle-5").css("background", frames[count][4]);
-  $("#center").attr("src","movies/the_lego_movie/lego"+(count+1)+".png");
+  $("#center").attr("src","movies/Matrix/matrix"+(count+1)+".png");
 });
 
 $(document).on('click', '.prev-button', function(){
@@ -31,5 +31,5 @@ $(document).on('click', '.prev-button', function(){
   $("#circle-3").css("background", frames[count][2]);
   $("#circle-4").css("background", frames[count][3]);
   $("#circle-5").css("background", frames[count][4]);
-  $("#center").attr("src","movies/the_lego_movie/lego"+(count+1)+".png");
+  $("#center").attr("src","movies/Matrix/matrix"+(count+1)+".png");
 });
