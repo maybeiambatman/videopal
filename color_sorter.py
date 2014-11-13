@@ -11,7 +11,7 @@ for j in range (0,6):
     print movies[j]+':'
     print "{"
     for i in range (0,9):
-        frame = data[movies[0]][frames[i]]
+        frame = data[movies[j]][frames[i]]
         for k in range (len(frame)):
             frame[k] = str(frame[k])
         frame.sort()
