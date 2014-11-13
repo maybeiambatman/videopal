@@ -33,3 +33,21 @@ $(document).on('click', '.prev-button', function(){
   $("#circle-5").css("background", frames[count][4]);
   $("#center").attr("src","movies/Star Wars/StarWars"+(count+1)+".png");
 });
+
+$(document).on('click', '.animate', function(){
+      var it = 0, it_end = 9;
+      function run(){
+          $("#circle-1").css("background", frames[it][0]).delay(500);
+          $("#circle-2").css("background", frames[it][1]).delay(500);
+          $("#circle-3").css("background", frames[it][2]).delay(500);
+          $("#circle-4").css("background", frames[it][3]).delay(500);
+          $("#circle-5").css("background", frames[it][4]).delay(500);
+          $("#center").attr("src","movies/Star Wars/StarWars"+(it+1)+".png").delay(500);
+          it ++;
+          if (it < it_end){
+            setTimeout(run, 1000);
+          }
+      }
+      run();
+      count = 8;
+});

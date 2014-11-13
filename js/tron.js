@@ -8,6 +8,7 @@ var frames = [['#040507', '#6B4529', '#A0A9AB', '#CC5C34', '#FCFCFC'],
               ['#3E2000', '#99F5F4', '#A47142', '#D7AA59', '#F5DE80'],
               ['#244459', '#26EFF7', '#4199BD', '#6AE4F3', '#D54B24'],
               ['#040C0E', '#213540', '#5F8DA4', '#A2F1F5', '#ECF6F8']]
+
 $(document).on('click', '.next-button', function(){
     if (count < 8){
         count += 1
@@ -32,4 +33,22 @@ $(document).on('click', '.prev-button', function(){
   $("#circle-4").css("background", frames[count][3]);
   $("#circle-5").css("background", frames[count][4]);
   $("#center").attr("src","movies/Tron/tron"+(count+1)+".jpg");
+});
+
+$(document).on('click', '.animate', function(){
+      var it = 0, it_end = 9;
+      function run(){
+          $("#circle-1").css("background", frames[it][0]).delay(500);
+          $("#circle-2").css("background", frames[it][1]).delay(500);
+          $("#circle-3").css("background", frames[it][2]).delay(500);
+          $("#circle-4").css("background", frames[it][3]).delay(500);
+          $("#circle-5").css("background", frames[it][4]).delay(500);
+          $("#center").attr("src","movies/Tron/tron"+(it+1)+".jpg").delay(500);
+          it ++;
+          if (it < it_end){
+            setTimeout(run, 1000);
+          }
+      }
+      run();
+      count = 8;
 });
