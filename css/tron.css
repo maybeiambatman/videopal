@@ -1,5 +1,5 @@
 #circle-1 {
-  background: #151515;
+  background: #040507;
   float: left;
   width: 120px;
   height: 120px;
@@ -9,7 +9,7 @@
 }
 
 #circle-2 {
-  background: #6D6090;
+  background: #6B4529;
   float: left;
   width: 120px;
   height: 120px;
@@ -21,7 +21,7 @@
 
 #circle-3 {
   float: left;
-  background: #823512;
+  background: #A0A9AB;
   width: 120px;
   height: 120px;
   margin-left: 2px;
@@ -32,7 +32,7 @@
 
 #circle-4 {
   float: left;
-  background: #A391BC;
+  background: #CC5C34;
   width: 120px;
   height: 120px;
   margin-left: 2px;
@@ -43,7 +43,7 @@
 
 #circle-5 {
   float: left;
-  background: #E76626;
+  background: #FCFCFC;
   width: 120px;
   height: 120px;
   margin-left: 2px;

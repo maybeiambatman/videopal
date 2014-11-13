@@ -1,5 +1,5 @@
 #circle-1 {
-  background: #DFEFD4;
+  background: #000000;
   float: left;
   width: 120px;
   height: 120px;
@@ -21,7 +21,7 @@
 
 #circle-3 {
   float: left;
-  background: #000000;
+  background: #823512;
   width: 120px;
   height: 120px;
   margin-left: 2px;
@@ -43,7 +43,7 @@
 
 #circle-5 {
   float: left;
-  background: #823512;
+  background: #DFEFD4;
   width: 120px;
   height: 120px;
   margin-left: 2px;
